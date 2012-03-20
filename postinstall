@@ -1,5 +1,5 @@
 #!/bin/bash
-python mycms/manage.py syncdb --no-input
-python mycms/manage.py collectstatic
-python createsite.py
-python createadmin.py
+python mycms/manage.py syncdb --noinput
+python mycms/manage.py collectstatic --noinput
+python mycms/createsite.py
+python mycms/createadmin.py
