@@ -1,0 +1,5 @@
+#!/bin/bash
+python mycms/manage.py syncdb --no-input
+python mycms/manage.py collectstatic
+python createsite.py
+python createadmin.py
