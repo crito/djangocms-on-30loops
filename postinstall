@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "I am running now..."
 python mycms/manage.py syncdb --noinput
 python mycms/manage.py migrate --noinput
 python mycms/createsite.py
