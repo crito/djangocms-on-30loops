@@ -20,7 +20,7 @@ DEFAULT_LANGUAGE = 0
 DATABASES = {
     'default': {
           'ENGINE': 'django.db.backends.sqlite3',
-          'NAME': 'gestalten.db',
+          'NAME': 'mycms.db',
           'USER': '',
           'PASSWORD': '',
           'HOST': '',
