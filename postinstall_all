@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "This runs on all instances"
-python mycms/manage.py collectstatic --noinput
+python mycms/manage.py collectstatic --noinput -v 0
